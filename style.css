@@ -417,7 +417,7 @@ footer {
     }
 }
 
-@media all and (max-width: 576px) {
+@media all and (max-width: 450px) {
     .navbar .logo {
         display: none;
     } 
