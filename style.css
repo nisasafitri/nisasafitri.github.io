@@ -1,0 +1,444 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100%;
+    background: #3b5599;
+    height: 70px;
+    display: flex;
+    padding: 0 2%;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.1);
+    position: fixed;
+    justify-content: space-around;
+}
+
+.navbar > h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.navbar .logo {
+    display: none;
+}
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu ul li {
+    list-style-type: none;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 17px;
+}
+
+.nav-menu a:hover {
+    color: black;
+    background-color: #F2BAEB;
+    padding: 25px;
+}
+
+/* header #toggler{
+    display: none;
+} */
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    /* padding: 0 10%; */
+    /* gap: 30px; */
+    background-image: linear-gradient(to bottom right, #0C7BB3, #F2BAEB );
+}
+
+.hero-container .foto {
+    width: 30%;
+    justify-content: center;
+    display: flex;
+}
+.hero-container .foto > img {
+    width: 200pxpx;
+    height: 220px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #4d4d4d;
+    /* margin-right: 70px; */
+}
+
+.hero-container > div {
+    width: 70%;
+    align-self: center;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+h1 span:before{
+    content: '';
+    animation: gerak infinite 4s ease;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 40px;
+}
+
+@keyframes gerak {
+    0% {
+        content: 'Perkenalkan';
+    }
+    100% {
+        content: 'Saya Nisa Safitri Ulfiyani';
+    }
+    /* 100% {
+        content: 'Salam Kenal';
+    } */
+}
+
+/* .hero-container h1 {
+    font-size: 40px;
+    margin: 20px 0;
+} */
+
+.hero-container .bio {
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-container a {
+    display: flex;
+}
+
+.hero-container button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+}
+
+.hero-container button span {
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.hero-container button:hover {
+    background-color: #3b5999;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.overview-container {
+    height: 500px;
+    margin: 40px 0;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.overview-container > div > div {
+    width: 500px;
+
+}
+.overview-container > div {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overview-container > img {
+    width: 40%;
+    object-fit: cover;
+    display: flex;
+}
+
+.title-portofolio {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.portofolio-container {
+    height: 600px;
+    padding: 0 10%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    background-image: linear-gradient(to bottom right, #0C7BB3, #F2BAEB );
+}
+
+.portofolio-container .card {
+    height: 90%;
+    background-color: white;
+    box-shadow: 10px 10px 5px #4d4d4d;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.portofolio-container .card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.card > img {
+    object-fit: cover;
+    height: 180px;
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.card .card-body {
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin: 0 15px 0 0;
+}
+
+.card p {
+    color: #353434;
+    font-size: 15px;
+}
+
+.portofolio-container button {
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+}
+
+.portofolio-container button:hover {
+    background-color: #3b5999;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.title-sertifikat {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.sertifikat-container {
+    height: 200px;
+    width: 80%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    margin-left: 120px;
+}
+
+.dropbtn {
+  background-image: linear-gradient(to bottom right, #0C7BB3, #F2BAEB );
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.dropbtn i {
+    font-size: 20px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background-color: #3b5598;
+    padding-top: 10px;
+}
+
+
+@media all and (max-width: 760px) {
+    .navbar .logo {
+        display: none;
+    }
+
+    .hero-container {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 550px;
+        /* align-items: center; */
+        /* padding: 0 3%; */
+        justify-items: center;
+    }
+
+    .hero-container .foto {
+        width: 100%;
+    }
+
+    .hero-container .foto > img {
+        margin-top: 70px;
+    }
+    .hero-container > div {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero-container .bio {
+        width: 100%;
+        margin-top: -50px;
+        text-align: center;
+        font-size: 14px;
+        letter-spacing: 1;
+        justify-content: center;
+    }
+
+    h1 span:before{
+    display: none;
+    }
+    
+    .hero-container a {
+        display: flex;
+        justify-content: center;
+    }
+    .hero-container button {
+        margin-top: 10px;
+        padding: 5px;
+        width: 200px;
+        border-radius: 50px;
+        border: none;
+    }
+
+    .hero-container > div h1 {
+        display: none;
+    }
+
+    .overview-container {
+        margin-top: 150px;
+        height: 300px;
+    }
+
+    .overview-container > div {
+        width: 100%;
+    }
+
+    .overview-container > img {
+        display: none;
+    }
+    
+    .title-portofolio {
+        margin-top: 200px;
+    }
+
+    .portofolio-container {
+        height: 1400px;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .portofolio-container .card {
+        height: 90%;
+        width: 70%;
+        margin-top: 10px;
+        /* margin-left: 60px; */
+    }
+
+    .card > img {
+        height: 200px;
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+
+    .card p {
+        font-size: 12px;
+    }
+    .title-sertifikat {
+        margin-top: 20px;
+    }
+
+    .sertifikat-container {
+        margin-left: 60px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer {
+        text-align: center;
+        margin-top: 60px;
+    }
+}
+
+@media all and (max-width: 576px) {
+    .navbar .logo {
+        color: white;
+        font-size: 30px;
+    }
+    .navbar {
+        justify-content: space-around;
+        padding: 0 5px;
+    }
+    .navbar > h1 {
+        display: none;
+    }
+    .navbar .logo {
+        display: block;
+    }
+    .nav-menu a {
+        font-size: 15px;
+    }
+    .nav-menu a:hover {
+        padding: 20px;
+    }
+    .portofolio-container {
+        height: 1600px;
+    }
+}
