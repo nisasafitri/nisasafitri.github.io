@@ -16,6 +16,7 @@ body {
     box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.1);
     position: fixed;
     justify-content: space-around;
+    z-index: 99;
 }
 
 .navbar > h1 {
@@ -435,7 +436,7 @@ footer {
     }
     .overview-container {
         height: 600px;
-        margin-top: 80px;
+        margin-top: 120px;
     }
     .portofolio-container {
         height: 1800px;
