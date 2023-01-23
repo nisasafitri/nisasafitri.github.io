@@ -418,10 +418,10 @@ footer {
 }
 
 @media all and (max-width: 576px) {
-    .navbar .logo {
+   /* .navbar .logo {
         color: white;
         font-size: 30px;
-    }
+    } */
     .navbar {
         justify-content: space-around;
         padding: 0 5px;
@@ -433,12 +433,18 @@ footer {
         display: block;
     }
     .nav-menu a {
-        font-size: 15px;
+        font-size: 13px;
     }
     .nav-menu a:hover {
         padding: 20px;
     }
+    .portofolio .title {
+        margin-top: 20px;
+    }
     .portofolio-container {
-        height: 1600px;
+        height: 1700px;
+    }
+    .sertifikat-container {
+        height: 500px   
     }
 }
