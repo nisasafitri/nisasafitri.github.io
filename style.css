@@ -445,4 +445,7 @@ footer {
         height: 700px
         margin-left: 10px;
     }
+    footer {
+        margin-top: 120px;
+    }
 }
