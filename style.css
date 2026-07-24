@@ -233,6 +233,10 @@ h1 span:before{
     margin-bottom: 10px;
 }
 
+.card .card-body ul li {
+    text-align: left;
+}
+
 .card p {
     color: #353434;
     font-size: 15px;
