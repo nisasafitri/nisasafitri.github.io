@@ -394,10 +394,10 @@ footer {
     }
 
     .card > img {
-        height: 200px;
+        height: 180px;
     }
 
-    .card h3 {
+    .card h4 {
         font-size: 16px;
     }
 
