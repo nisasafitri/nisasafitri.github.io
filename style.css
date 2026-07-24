@@ -244,6 +244,7 @@ h1 span:before{
     width: 100px;
     border-radius: 50px;
     border: none;
+    text-align: center;
 }
 
 .portofolio-container button:hover {
