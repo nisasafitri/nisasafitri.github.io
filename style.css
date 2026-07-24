@@ -175,7 +175,7 @@ h1 span:before{
 }
 
 .portofolio-container {
-    height: 800px;
+    height: 900px;
     padding: 0 10%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -185,7 +185,7 @@ h1 span:before{
 }
 
 .portofolio-container .card {
-    height: 90%;
+    height: 95%;
     background-color: white;
     box-shadow: 10px 10px 5px #4d4d4d;
     margin-top: 20px;
