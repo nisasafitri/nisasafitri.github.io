@@ -216,6 +216,14 @@ h1 span:before{
     margin: 0 8px 0 0;
 }
 
+.card .card-body h5 {
+    margin: 0 8px 0 0;
+}
+
+.card .card-body h6 {
+    margin: 0 8px 0 0;
+}
+
 .card p {
     color: #353434;
     font-size: 15px;
