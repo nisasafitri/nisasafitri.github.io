@@ -206,22 +206,31 @@ h1 span:before{
 
 .card .card-body {
     padding: 20px;
-    text-align: center;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
+    text-align: left;
 }
 
 .card .card-body h4 {
     font-size: 18px;
     margin: 0 0 8px;
+    text-align: center;
 }
 
 .card .card-body h5 {
     margin: 0 0 8px;
+    text-align: center;
 }
 
 .card .card-body h6 {
     margin: 0 0 8px;
+    text-align: center;
+}
+
+.card .card-body ul {
+    padding-left: 20px;
+}
+
+.card .card-body li {
+    margin-bottom: 10px;
 }
 
 .card p {
