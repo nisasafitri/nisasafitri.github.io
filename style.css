@@ -175,7 +175,7 @@ h1 span:before{
 }
 
 .portofolio-container {
-    height: 900px;
+    height: 1000px;
     padding: 0 10%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
