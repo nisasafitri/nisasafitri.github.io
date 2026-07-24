@@ -179,6 +179,7 @@ h1 span:before{
     padding: 0 10%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
     gap: 30px;
     background-image: linear-gradient(to bottom right, #0C7BB3, #F2BAEB );
 }
