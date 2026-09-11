@@ -400,7 +400,7 @@ footer {
     }
 
     .portofolio-container {
-        height: 6000px;
+        height: 5000px;
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
     }
